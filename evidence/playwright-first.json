@@ -1,0 +1,1025 @@
+{
+  "config": {
+    "argv": [
+      "/opt/homebrew/Cellar/node/25.2.1/bin/node",
+      "/Users/chosunghoon/Desktop/GitHub/Organization/harness-experiment/E2E-harness-experiment-1/node_modules/.bin/playwright",
+      "test"
+    ],
+    "configFile": "/Users/chosunghoon/Desktop/GitHub/Organization/harness-experiment/E2E-harness-experiment-1/playwright.config.js",
+    "rootDir": "/Users/chosunghoon/Desktop/GitHub/Organization/harness-experiment/E2E-harness-experiment-1/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/chosunghoon/Desktop/GitHub/Organization/harness-experiment/E2E-harness-experiment-1/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/Users/chosunghoon/Desktop/GitHub/Organization/harness-experiment/E2E-harness-experiment-1/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/chosunghoon/Desktop/GitHub/Organization/harness-experiment/E2E-harness-experiment-1/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "/Users/chosunghoon/Desktop/GitHub/Organization/harness-experiment/E2E-harness-experiment-1/tests",
+        "snapshotDir": "/Users/chosunghoon/Desktop/GitHub/Organization/harness-experiment/E2E-harness-experiment-1/tests",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 45000,
+        "use": {
+          "baseURL": "http://127.0.0.1:15173",
+          "screenshot": "only-on-failure",
+          "trace": "off"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "evidence/playwright.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.65.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "auth.spec.js",
+      "file": "auth.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "AUTH-01 UI 가입과 서로 다른 회원 ID",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1641,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-18T07:55:32.638Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d5ed79a6b333c2ba7209-eb99b409747529394ceb",
+          "file": "auth.spec.js",
+          "line": 15,
+          "column": 1
+        },
+        {
+          "title": "AUTH-02 중복 가입 거절과 원래 비밀번호 유지",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1060,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-18T07:55:34.620Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d5ed79a6b333c2ba7209-6f1dacc91c936a39a927",
+          "file": "auth.spec.js",
+          "line": 29,
+          "column": 1
+        },
+        {
+          "title": "AUTH-03 잘못된 가입 입력의 UI와 서버 거절",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 788,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-18T07:55:35.690Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d5ed79a6b333c2ba7209-b566d68cd7090f778216",
+          "file": "auth.spec.js",
+          "line": 46,
+          "column": 1
+        },
+        {
+          "title": "AUTH-04 잘못된 로그인은 인증하지 않음",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 194,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-18T07:55:36.485Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d5ed79a6b333c2ba7209-2412d0bff7de64f8b16b",
+          "file": "auth.spec.js",
+          "line": 68,
+          "column": 1
+        },
+        {
+          "title": "AUTH-05 A와 B의 로그인 격리",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1388,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-18T07:55:36.685Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d5ed79a6b333c2ba7209-146831cc083c2bf75b85",
+          "file": "auth.spec.js",
+          "line": 82,
+          "column": 1
+        },
+        {
+          "title": "AUTH-06 새로고침 인증 유지와 비회원 격리",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 827,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-18T07:55:38.080Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d5ed79a6b333c2ba7209-b5bd4aa1b0b448bafc9f",
+          "file": "auth.spec.js",
+          "line": 96,
+          "column": 1
+        },
+        {
+          "title": "AUTH-07 로그아웃한 자격 재사용 거절과 재로그인",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1070,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-18T07:55:38.914Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d5ed79a6b333c2ba7209-95e0b5a9fa0482b0383a",
+          "file": "auth.spec.js",
+          "line": 111,
+          "column": 1
+        },
+        {
+          "title": "AUTH-08 비밀번호 해시와 응답 비밀값 검사",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 839,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-18T07:55:39.993Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d5ed79a6b333c2ba7209-a9bd305b4828982340e6",
+          "file": "auth.spec.js",
+          "line": 131,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "board.spec.js",
+      "file": "board.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "BOARD-01 비회원 빈 목록",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 631,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-18T07:55:40.850Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47c1464f561ce292309a-c2feaa275ac3998e3e82",
+          "file": "board.spec.js",
+          "line": 22,
+          "column": 1
+        },
+        {
+          "title": "BOARD-02 UI 작성과 작성자 사칭 방지",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1167,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-18T07:55:41.490Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47c1464f561ce292309a-9de69d0ddd7e902706ce",
+          "file": "board.spec.js",
+          "line": 31,
+          "column": 1
+        },
+        {
+          "title": "BOARD-03 공개 목록과 상세 3개",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1284,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-18T07:55:42.664Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47c1464f561ce292309a-b7cf80266dc992ad8449",
+          "file": "board.spec.js",
+          "line": 49,
+          "column": 1
+        },
+        {
+          "title": "BOARD-04 작성자 수정과 다른 글 보존",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "timedOut",
+                  "duration": 45054,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "/Users/chosunghoon/Desktop/GitHub/Organization/harness-experiment/E2E-harness-experiment-1/tests/helpers.js",
+                        "column": 48,
+                        "line": 102
+                      },
+                      "message": "Error: locator.fill: Test ended.\nCall log:\n\u001b[2m  - waiting for getByLabel('본문', { exact: true })\u001b[22m\n\n\n   at helpers.js:102\n\n  100 |   await page.goto(`/posts/${id}/edit`);\n  101 |   await page.getByLabel(\"제목\", { exact: true }).fill(input.title);\n> 102 |   await page.getByLabel(\"본문\", { exact: true }).fill(input.body);\n      |                                                ^\n  103 |   await page.getByRole(\"button\", { name: \"저장하기\" }).click();\n  104 |   await expect(page).toHaveURL(new RegExp(`/posts/${id}$`));\n  105 | }\n    at uiEdit (/Users/chosunghoon/Desktop/GitHub/Organization/harness-experiment/E2E-harness-experiment-1/tests/helpers.js:102:48)\n    at /Users/chosunghoon/Desktop/GitHub/Organization/harness-experiment/E2E-harness-experiment-1/tests/board.spec.js:77:3"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-18T07:55:43.956Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/chosunghoon/Desktop/GitHub/Organization/harness-experiment/E2E-harness-experiment-1/test-results/board-BOARD-04-작성자-수정과-다른-글-보존/test-failed-1.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/chosunghoon/Desktop/GitHub/Organization/harness-experiment/E2E-harness-experiment-1/test-results/board-BOARD-04-작성자-수정과-다른-글-보존/test-failed-2.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/chosunghoon/Desktop/GitHub/Organization/harness-experiment/E2E-harness-experiment-1/test-results/board-BOARD-04-작성자-수정과-다른-글-보존/test-failed-3.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/chosunghoon/Desktop/GitHub/Organization/harness-experiment/E2E-harness-experiment-1/test-results/board-BOARD-04-작성자-수정과-다른-글-보존/error-context.md"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "47c1464f561ce292309a-d00cad124e826b0cdb1b",
+          "file": "board.spec.js",
+          "line": 72,
+          "column": 1
+        },
+        {
+          "title": "BOARD-05 삭제와 공개 조회 불가",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 846,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-18T07:56:29.373Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47c1464f561ce292309a-45ce2959c793b9b7efb2",
+          "file": "board.spec.js",
+          "line": 83,
+          "column": 1
+        },
+        {
+          "title": "BOARD-06 비회원 쓰기 거절과 저장 불변",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 957,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-18T07:56:30.338Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47c1464f561ce292309a-13a223b9a6a6721c397d",
+          "file": "board.spec.js",
+          "line": 96,
+          "column": 1
+        },
+        {
+          "title": "BOARD-07 타회원 사칭 변경 거절과 자기 글 수정",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 818,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-18T07:56:31.311Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47c1464f561ce292309a-02384b296956258432a8",
+          "file": "board.spec.js",
+          "line": 120,
+          "column": 1
+        },
+        {
+          "title": "BOARD-08 제목과 본문의 누락·빈값·공백 작성과 수정",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "timedOut",
+                  "duration": 45051,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "/Users/chosunghoon/Desktop/GitHub/Organization/harness-experiment/E2E-harness-experiment-1/tests/board.spec.js",
+                        "column": 12,
+                        "line": 163
+                      },
+                      "message": "Error: locator.fill: Test ended.\nCall log:\n\u001b[2m  - waiting for getByLabel('본문', { exact: true })\u001b[22m\n\n\n  161 |         await page\n  162 |           .getByLabel(\"본문\", { exact: true })\n> 163 |           .fill(field === \"body\" ? value || \"\" : P1.body);\n      |            ^\n  164 |         await page.getByRole(\"button\", { name: \"저장하기\" }).click();\n  165 |         await expect(page).toHaveURL(new RegExp(path + \"$\"));\n  166 |         if (value === \"   \")\n    at /Users/chosunghoon/Desktop/GitHub/Organization/harness-experiment/E2E-harness-experiment-1/tests/board.spec.js:163:12"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-18T07:56:32.137Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/chosunghoon/Desktop/GitHub/Organization/harness-experiment/E2E-harness-experiment-1/test-results/board-BOARD-08-제목과-본문의-누락·빈값·공백-작성과-수정/test-failed-1.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/chosunghoon/Desktop/GitHub/Organization/harness-experiment/E2E-harness-experiment-1/test-results/board-BOARD-08-제목과-본문의-누락·빈값·공백-작성과-수정/test-failed-2.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/chosunghoon/Desktop/GitHub/Organization/harness-experiment/E2E-harness-experiment-1/test-results/board-BOARD-08-제목과-본문의-누락·빈값·공백-작성과-수정/test-failed-3.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/chosunghoon/Desktop/GitHub/Organization/harness-experiment/E2E-harness-experiment-1/test-results/board-BOARD-08-제목과-본문의-누락·빈값·공백-작성과-수정/error-context.md"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "47c1464f561ce292309a-fdb3b90f03fd085a65aa",
+          "file": "board.spec.js",
+          "line": 139,
+          "column": 1
+        },
+        {
+          "title": "BOARD-09 없는 글과 삭제한 글의 조회·수정·삭제",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 544,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-18T07:57:17.542Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47c1464f561ce292309a-ff78e9951192a0c36e93",
+          "file": "board.spec.js",
+          "line": 178,
+          "column": 1
+        },
+        {
+          "title": "BOARD-10 재기동 후 생성·수정·삭제 유지",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3627,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": "(node:44142) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.\n(Use `node --trace-warnings ...` to show where the warning was created)\n"
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-18T07:57:18.243Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47c1464f561ce292309a-45a8df1bad35599986c8",
+          "file": "board.spec.js",
+          "line": 200,
+          "column": 1
+        },
+        {
+          "title": "BOARD-11 한글·개행·HTML 모양 텍스트 보존",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 922,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-18T07:57:21.882Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47c1464f561ce292309a-b54fb773509717f65eb1",
+          "file": "board.spec.js",
+          "line": 220,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "integration.spec.js",
+      "file": "integration.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "INT-01 가입부터 글 작성·공개 조회·수정·삭제",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 21194,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-18T07:57:22.817Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2cc1944cd770ce0e0997-33824fbe4dcb63c91197",
+          "file": "integration.spec.js",
+          "line": 21,
+          "column": 1
+        },
+        {
+          "title": "INT-02 두 회원 소유권과 정상 수정",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2250,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-18T07:57:44.025Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2cc1944cd770ce0e0997-81e62777b525a95442dd",
+          "file": "integration.spec.js",
+          "line": 40,
+          "column": 1
+        },
+        {
+          "title": "INT-03 로그아웃 자격으로 쓰기 거절·공개 읽기·재로그인",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1821,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-18T07:57:46.286Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2cc1944cd770ce0e0997-1d33050921cfa911aaa2",
+          "file": "integration.spec.js",
+          "line": 67,
+          "column": 1
+        },
+        {
+          "title": "INT-04 재기동 후 계정·글·작성자 유지",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5774,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": "(node:44362) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.\n(Use `node --trace-warnings ...` to show where the warning was created)\n"
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-18T07:57:48.117Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2cc1944cd770ce0e0997-dd70f620bfbeb7a4f934",
+          "file": "integration.spec.js",
+          "line": 99,
+          "column": 1
+        },
+        {
+          "title": "INT-05 거절 후 정상 작업과 단일 저장 상태",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1392,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-18T07:57:53.900Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2cc1944cd770ce0e0997-26f577e3b05e941e0682",
+          "file": "integration.spec.js",
+          "line": 122,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-18T07:55:32.325Z",
+    "duration": 143011.475,
+    "expected": 22,
+    "skipped": 0,
+    "unexpected": 2,
+    "flaky": 0
+  }
+}

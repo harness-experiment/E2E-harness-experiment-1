@@ -1,0 +1,85 @@
+
+Running 24 tests using 1 worker
+
+(node:46035) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:46051) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/auth.spec.js:15:1 › AUTH-01 UI 가입과 서로 다른 회원 ID (4.3s)
+(node:46134) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   2 tests/auth.spec.js:29:1 › AUTH-02 중복 가입 거절과 원래 비밀번호 유지 (3.7s)
+(node:46222) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   3 tests/auth.spec.js:46:1 › AUTH-03 잘못된 가입 입력의 UI와 서버 거절 (3.5s)
+(node:46307) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   4 tests/auth.spec.js:68:1 › AUTH-04 잘못된 로그인은 인증하지 않음 (2.8s)
+(node:46375) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   5 tests/auth.spec.js:82:1 › AUTH-05 A와 B의 로그인 격리 (4.1s)
+(node:46446) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   6 tests/auth.spec.js:96:1 › AUTH-06 새로고침 인증 유지와 비회원 격리 (3.5s)
+(node:46517) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   7 tests/auth.spec.js:111:1 › AUTH-07 로그아웃한 자격 재사용 거절과 재로그인 (3.7s)
+(node:46586) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   8 tests/auth.spec.js:131:1 › AUTH-08 비밀번호 해시와 응답 비밀값 검사 (3.5s)
+(node:46656) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   9 tests/board.spec.js:22:1 › BOARD-01 비회원 빈 목록 (3.2s)
+(node:46722) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:46796) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  10 tests/board.spec.js:31:1 › BOARD-02 UI 작성과 작성자 사칭 방지 (6.8s)
+(node:46879) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  11 tests/board.spec.js:49:1 › BOARD-03 공개 목록과 상세 3개 (3.8s)
+(node:46970) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  12 tests/board.spec.js:72:1 › BOARD-04 작성자 수정과 다른 글 보존 (3.6s)
+(node:47042) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  13 tests/board.spec.js:83:1 › BOARD-05 삭제와 공개 조회 불가 (3.4s)
+(node:47109) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  14 tests/board.spec.js:96:1 › BOARD-06 비회원 쓰기 거절과 저장 불변 (3.8s)
+(node:47179) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  15 tests/board.spec.js:120:1 › BOARD-07 타회원 사칭 변경 거절과 자기 글 수정 (4.2s)
+(node:47328) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  16 tests/board.spec.js:139:1 › BOARD-08 제목과 본문의 누락·빈값·공백 작성과 수정 (5.2s)
+(node:47411) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  17 tests/board.spec.js:178:1 › BOARD-09 없는 글과 삭제한 글의 조회·수정·삭제 (3.6s)
+(node:47482) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:47553) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  18 tests/board.spec.js:200:1 › BOARD-10 재기동 후 생성·수정·삭제 유지 (6.3s)
+(node:47618) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  19 tests/board.spec.js:220:1 › BOARD-11 한글·개행·HTML 모양 텍스트 보존 (3.7s)
+(node:47688) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  20 tests/integration.spec.js:21:1 › INT-01 가입부터 글 작성·공개 조회·수정·삭제 (4.4s)
+(node:47769) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  21 tests/integration.spec.js:40:1 › INT-02 두 회원 소유권과 정상 수정 (5.1s)
+(node:47841) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  22 tests/integration.spec.js:67:1 › INT-03 로그아웃 자격으로 쓰기 거절·공개 읽기·재로그인 (4.1s)
+(node:47908) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:47981) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  23 tests/integration.spec.js:99:1 › INT-04 재기동 후 계정·글·작성자 유지 (8.0s)
+(node:48057) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  24 tests/integration.spec.js:122:1 › INT-05 거절 후 정상 작업과 단일 저장 상태 (3.9s)
+
+  24 passed (1.7m)

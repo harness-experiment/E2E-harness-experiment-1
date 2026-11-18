@@ -1,0 +1,21 @@
+> Task :spotlessInternalRegisterDependencies UP-TO-DATE
+> Task :backend:spotlessJava
+> Task :backend:spotlessJavaApply
+> Task :backend:spotlessApply
+> Task :backend:spotlessJavaCheck UP-TO-DATE
+> Task :backend:spotlessCheck UP-TO-DATE
+> Task :backend:compileJava UP-TO-DATE
+> Task :backend:processResources UP-TO-DATE
+> Task :backend:classes UP-TO-DATE
+> Task :backend:compileTestJava
+> Task :backend:processTestResources UP-TO-DATE
+> Task :backend:testClasses
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+2026-11-18T17:06:04.660+09:00  INFO 46004 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-18T17:06:04.662+09:00  INFO 46004 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+> Task :backend:test
+> Task :backend:check
+
+BUILD SUCCESSFUL in 3s
+9 actionable tasks: 4 executed, 5 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.2.1/userguide/configuration_cache_enabling.html
