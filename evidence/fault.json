@@ -1,0 +1,54 @@
+{
+  "started": "2026-11-18T08:01:34.325Z",
+  "detectionMs": 2361,
+  "recoveryMs": 2236,
+  "persistence": true,
+  "publicRead": true,
+  "before": [
+    {
+      "id": "1",
+      "author_id": "1",
+      "title": "첫 번째 글",
+      "body": "안녕하세요.\n게시판 테스트입니다."
+    },
+    {
+      "id": "2",
+      "author_id": "2",
+      "title": "두 번째 글",
+      "body": "다른 회원의 글입니다."
+    },
+    {
+      "id": "3",
+      "author_id": "1",
+      "title": "세 번째 글",
+      "body": "새로고침 후에도 남아야 합니다."
+    }
+  ],
+  "after": [
+    {
+      "id": "1",
+      "author_id": "1",
+      "title": "첫 번째 글",
+      "body": "안녕하세요.\n게시판 테스트입니다."
+    },
+    {
+      "id": "2",
+      "author_id": "2",
+      "title": "두 번째 글",
+      "body": "다른 회원의 글입니다."
+    },
+    {
+      "id": "3",
+      "author_id": "1",
+      "title": "세 번째 글",
+      "body": "새로고침 후에도 남아야 합니다."
+    }
+  ],
+  "passed": true,
+  "authenticatedRecovery": {
+    "passed": true,
+    "updateStatus": 200,
+    "deleteStatus": 204,
+    "preservedExistingPosts": true
+  }
+}

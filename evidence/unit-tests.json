@@ -1,0 +1,37 @@
+[
+  {
+    "suite": "com.example.board.AuthIntegrationTest",
+    "tests": 1,
+    "failures": 0,
+    "errors": 0,
+    "time": "0.596"
+  },
+  {
+    "suite": "com.example.board.auth.AuthServiceTest",
+    "tests": 4,
+    "failures": 0,
+    "errors": 0,
+    "time": "0.014"
+  },
+  {
+    "suite": "com.example.board.RequestValidationTest",
+    "tests": 2,
+    "failures": 0,
+    "errors": 0,
+    "time": "0.014"
+  },
+  {
+    "suite": "com.example.board.post.PostServiceTest",
+    "tests": 3,
+    "failures": 0,
+    "errors": 0,
+    "time": "0.005"
+  },
+  {
+    "suite": "com.example.board.PostsIntegrationTest",
+    "tests": 1,
+    "failures": 0,
+    "errors": 0,
+    "time": "0.029"
+  }
+]

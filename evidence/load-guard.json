@@ -1,0 +1,5 @@
+{
+  "aborted": false,
+  "exitCode": 0,
+  "rule": "one-second buckets exceeding 5% errors or p95 2000ms for 10 consecutive seconds"
+}

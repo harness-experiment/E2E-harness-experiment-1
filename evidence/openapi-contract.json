@@ -1,0 +1,44 @@
+[
+  {
+    "path": "/api/auth/signup",
+    "method": "post",
+    "status": "201",
+    "present": true
+  },
+  {
+    "path": "/api/auth/login",
+    "method": "post",
+    "status": "200",
+    "present": true
+  },
+  {
+    "path": "/api/auth/me",
+    "method": "get",
+    "status": "200",
+    "present": true
+  },
+  {
+    "path": "/api/auth/logout",
+    "method": "post",
+    "status": "204",
+    "present": true
+  },
+  {
+    "path": "/api/posts",
+    "method": "post",
+    "status": "201",
+    "present": true
+  },
+  {
+    "path": "/api/posts/{id}",
+    "method": "put",
+    "status": "200",
+    "present": true
+  },
+  {
+    "path": "/api/posts/{id}",
+    "method": "delete",
+    "status": "204",
+    "present": true
+  }
+]
