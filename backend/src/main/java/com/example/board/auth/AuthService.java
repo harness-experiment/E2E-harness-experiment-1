@@ -21,6 +21,9 @@ public class AuthService {
 
   @Transactional
   public User signup(String email, String password) {
+    if (password.getBytes(java.nio.charset.StandardCharsets.UTF_8).length > 72) {
+      throw new ApiException(HttpStatus.BAD_REQUEST, "비밀번호는 UTF-8 기준 72바이트 이하여야 합니다.");
+    }
     try {
       var member = members.insert(email, passwords.encode(password));
       return new User(member.id(), member.email());

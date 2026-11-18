@@ -31,6 +31,14 @@ public class SecurityConfig {
   }
 
   @Bean
+  org.springframework.security.core.userdetails.UserDetailsService unusedBasicAuthentication() {
+    return username -> {
+      throw new org.springframework.security.core.userdetails.UsernameNotFoundException(
+          "Session authentication only");
+    };
+  }
+
+  @Bean
   PasswordEncoder passwordEncoder() {
     return new BCryptPasswordEncoder();
   }
