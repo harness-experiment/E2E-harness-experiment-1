@@ -1,0 +1,10 @@
+.idea/
+.gradle/
+**/build/
+node_modules/
+web/dist/
+test-results/
+playwright-report/
+.env
+.runtime/
+evidence/raw/
