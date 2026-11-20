@@ -1,0 +1,5 @@
+FROM grafana/grafana@sha256:0615ec4fbd4072004b7d86b46ded63013a74b7d6eb1119273dd89e8fa25c13cf
+COPY monitoring/railway/datasource.yml /etc/grafana/provisioning/datasources/prometheus.yml
+COPY monitoring/railway/dashboard-provider.yml /etc/grafana/provisioning/dashboards/board.yml
+COPY monitoring/grafana/dashboards/board.json /opt/board-dashboards/board.json
+EXPOSE 3000
