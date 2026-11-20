@@ -33,7 +33,8 @@ Railway 볼륨은 root 소유이므로 두 서비스에 `RAILWAY_RUN_UID=0`을 �
 이는 프로세스를 root로 실행하는 절충이다. Prometheus는 내부 네트워크에만 노출한다.
 공식 설명: https://docs.railway.com/volumes#permissions
 
-Prometheus 데이터는 7일 또는 블록 크기 1GB 중 먼저 도달한 제한으로 삭제된다.
+Prometheus 데이터는 7일 또는 블록 크기 200MB 중 먼저 도달한 제한으로 삭제된다.
+현재 500MB 볼륨에서 WAL과 head 데이터 공간을 남기기 위한 설정이다.
 WAL 등 추가 공간이 필요하므로 전체 디스크 사용량의 절대 상한은 아니다.
 볼륨은 재배포 시 보존되지만 별도의 백업을 대신하지 않는다.
 Grafana의 최초 관리자 암호는 DB 초기화에만 적용된다. 이후 변경은 Grafana에서 한다.
